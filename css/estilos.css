@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;   
+}
+
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    width: 100%;
+    background: #1ABC9C;
+    height: 100px;
+    padding-top: 10px;
+    box-shadow: 500px 20px 0px rgba (0,0,0, 2);
+    
+   
+}
+.logo{
+    width: 500px;
+    height: 80px;  
+    padding-left: 70px;
+    
+    /* Flexbox */
+}
+.nav{
+    
+    width: 1400px;
+    height: 70px;
+    float: right;     
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.nav_lista{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav_enlace{
+    color: white;
+    font-size: 20px;
+    text-decoration: none; /* saca el subrayado*/
+    text-transform: uppercase;/* coloca letras en mayuscula*/
+    /* padding-left: 10px;para dar espacio entre cada item del menu */
+    font-weight: bold;/* letra en negrita*/
+    letter-spacing: 1px;/*espacio entre letras*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+   
+}
+.nav_enlace:hover{ /* cuando paso el item del menu mouse cambia de color*/
+    color: #444;
+}
+
